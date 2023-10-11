@@ -10,9 +10,9 @@ function Post() {
       <Link to={'/post/read'}>read</Link>
         {
             blogdata.map((postdata, index) => {
-                const { id, title, description, author, publishdata, content } = postdata;
+                const { id, name, price, author, publishdata, content } = postdata;
                 return (
-                    <ReadPreview id={id} description={description} title={title} author={author} publishdate={publishdata} content={content}/>
+                    <ReadPreview id={id} price={price} name={name} author={author} publishdate={publishdata} content={content}/>
                 )
             })
         }

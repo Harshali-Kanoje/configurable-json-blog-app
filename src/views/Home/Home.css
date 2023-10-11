@@ -1,0 +1,12 @@
+.home-container img{
+width: 100vw;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-container h1{
+text-align: center;
+}

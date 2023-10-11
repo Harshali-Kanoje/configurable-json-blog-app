@@ -1,12 +1,15 @@
 import React from 'react'
+import './ReadPreview.css'
 import { Link } from 'react-router-dom'
 
-export default function ReadPreview({title , description , author , id , publishdate , content}) {
+
+export default function ReadPreview({name , price , img,id}) {
   return (
-    <div>
-      <h1>{title}</h1>
-      <p>{description}</p>
-      <Link to={`/post/read/${id}`}>read more</Link>
+    <div className='card'>
+      <img src={img}/>
+      <h1>{name}</h1>
+      <span>Rs {price}</span><br/>
+      <Link to={`/post/read/${id}`} className='read'>Read More</Link>
     </div>
   )
 }

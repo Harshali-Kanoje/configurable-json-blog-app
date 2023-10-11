@@ -1,24 +1,31 @@
 [
     {
         "id": 1,
-        "title": "how to create first web page",
-        "description": "this is my first blog",
+        "img" : "Image/earing.jpg",
+        "name": "Peachy Paradise Earrings",
+        "price": 299,
         "content": "loLorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat labore tempora itaque cumque culpa blanditiis numquam earum ducimus id qui assumenda ratione nihil, laboriosam error dolores soluta dolorem inventore veniam similique dicta. Eos dolorem quaerat ipsa odit ipsam est sint sit laborum nam inventore. Expedita aut, eos mollitia similique saepe minima magni sunt, voluptates debitis totam delectus ea suscipit.",
         "author": "sai",
         "publishDate": "8767567"
     },
     {
         "id": 2,
-        "title": "how to print hello world in js",
-        "description": "this is my second blog",
-        "content": "loLorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat labore tempora itaque cumque culpa blanditiis numquam earum ducimus id qui assumenda ratione nihil, laboriosam error dolores soluta dolorem inventore veniam similique dicta. Eos dolorem quaerat ipsa odit ipsam est sint sit laborum nam inventore. Expedita aut, eos mollitia similique saepe minima magni sunt, voluptates debitis totam delectus ea suscipit.",
-        "author": "sai ravi",
-        "publishDate": "77656"
+        "img" : "Image/neckless.jpg",
+        "name": "Intense OTTness Necklace",
+        "price": 1599,
+        "title" : "Oxidised Owning My Intense OTTness Necklace",
+        "content": "Silver Enamelled Collar Necklace. Crafted in 925 Silver with a Shiny Oxidised Finish. Uniquely handcrafted, no two pieces are exactly alike! 'Own Your Plumes' is a celebration of your unique style and expression. We've borrowed the flared forms and iridescent tones directly from the Peacock's one-of-a-kind plumage and its uninhibited movement. Care Tips: The first step is to store your jewellery in a zip lock bag when you're not wearing it. Also, avoid direct contact with chemicals such as perfumes, sanitisers and the likes. Gross Weight : 55.000 gInner Diameter: 14 cm (5.5 Inches) | Broadest Part of Necklace: 4.5 cm",
+        "smallDescription" : "Birthday Sale is on! Buy 2 and Get Extra 5% off.",
+        "currentPrice" : "₹11,600" ,
+        "oldPrice" :"₹14,500",
+        "offer" : "(20% OFF)",
+        "publishDate": "10-10-23"
     },
     {
         "id": 3,
-        "title": "how to create first web page",
-        "description": "this is my first blog",
+        "img" : "Image/ring.jpg",
+        "name": "Gold Plated Ring",
+        "price": "300",
         "content": "loLorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat labore tempora itaque cumque culpa blanditiis numquam earum ducimus id qui assumenda ratione nihil, laboriosam error dolores soluta dolorem inventore veniam similique dicta. Eos dolorem quaerat ipsa odit ipsam est sint sit laborum nam inventore. Expedita aut, eos mollitia similique saepe minima magni sunt, voluptates debitis totam delectus ea suscipit.",
         "author": "sairat",
         "publishDate": "97876876"

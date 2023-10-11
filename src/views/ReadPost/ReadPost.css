@@ -1,0 +1,9 @@
+.read-post-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.read-post-image img{
+    width: 323px;
+    height: 430px;
+}
