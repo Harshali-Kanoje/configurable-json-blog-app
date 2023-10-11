@@ -7,3 +7,37 @@
     width: 323px;
     height: 430px;
 }
+
+.price{
+    font-size: 20px;
+    margin: 120px 0;
+}
+
+.oldprice{
+    margin: 0 10px 0 20px ;
+    color: rgb(129, 123, 123);
+}
+.description{
+    margin-bottom: 30px;
+}
+
+.offer{
+    color: rgb(14, 180, 180);
+    font-size: 20px;
+}
+.date{
+    margin-top: 30px;
+}
+
+.content{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.back{
+    text-decoration: none;
+    color: rgb(232, 153, 167);
+    font-size: 30px;
+    margin: 10px 10px;
+    font-weight: bold;
+}

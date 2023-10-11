@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .home-container img{
 width: 100vw;
 }
@@ -5,8 +10,26 @@ width: 100vw;
 .card-container{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .home-container h1{
 text-align: center;
+}
+
+.home-container p{
+    text-align: center;
+    font-size: 20px;
+    }
+
+.home-header{
+    margin: 0;
+    background: linear-gradient(300deg , white,pink);
+    padding: 20px 0;
+}
+
+@media screen and (max-width:600px) {
+    .home-container h1{
+        font-size: 20px;
+    }
 }

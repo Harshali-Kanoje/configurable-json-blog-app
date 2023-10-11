@@ -4,9 +4,13 @@
         "img" : "Image/earing.jpg",
         "name": "Peachy Paradise Earrings",
         "price": 299,
-        "content": "loLorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat labore tempora itaque cumque culpa blanditiis numquam earum ducimus id qui assumenda ratione nihil, laboriosam error dolores soluta dolorem inventore veniam similique dicta. Eos dolorem quaerat ipsa odit ipsam est sint sit laborum nam inventore. Expedita aut, eos mollitia similique saepe minima magni sunt, voluptates debitis totam delectus ea suscipit.",
-        "author": "sai",
-        "publishDate": "8767567"
+        "title" : "Peachy Paradise Hoop Earrings in Rose Gold Plated 925 Silver",
+        "content": "Minimalistic Silver Hoop Earrings, studded with Cubic Zircons (CZ) and Synthetic Pink Morganite. Crafted in Rose Gold Plated 925 Silver with a High Polish Finish. Uniquely handcrafted, no two pieces are exactly alike! Here's something that you should know before buying this design, Rose Gold Plated Jewellery will tarnish over a period of time, and quicker especially in humid places such as Mumbai and Chennai. For a longer lasting plating, the first step is to store your jewellery in a zip lock bag when you're not wearing it. Also, avoid direct contact with chemicals such as perfumes, sanitisers and the likes. Gross Weight : 2.700 gTotal Earring Length: 2.6 cm | Motif Breadth: 0.9 cm",
+        "smallDescription" : "Birthday Sale is on! Buy 2 and Get Extra 5% off.",
+        "currentPrice" : "₹1,760" ,
+        "oldPrice" :"₹2,200",
+        "offer" : "(20% OFF)",
+        "publishDate": "20-10-23"
     },
     {
         "id": 2,
@@ -26,8 +30,12 @@
         "img" : "Image/ring.jpg",
         "name": "Gold Plated Ring",
         "price": "300",
-        "content": "loLorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat labore tempora itaque cumque culpa blanditiis numquam earum ducimus id qui assumenda ratione nihil, laboriosam error dolores soluta dolorem inventore veniam similique dicta. Eos dolorem quaerat ipsa odit ipsam est sint sit laborum nam inventore. Expedita aut, eos mollitia similique saepe minima magni sunt, voluptates debitis totam delectus ea suscipit.",
-        "author": "sairat",
-        "publishDate": "97876876"
+        "title" : "Be Nice or Leaf Ring in Gold Plated 925 Silver",
+        "content": "Minimalistic Front Open Ring enhanced using Leaf Motifs studded with AAA Cubic Zircons (CZ) accents. Crafted in Gold Plated 925 Silver with a High Polish Finish. Uniquely handcrafted, no two pieces are exactly alike! Here's something that you should know before buying this design, Gold Plated Jewellery will tarnish over a period of time, and quicker especially in humid places such as Mumbai and Chennai. For a longer lasting plating, the first step is to store your jewellery in a zip lock bag when you're not wearing it. Also, avoid direct contact with chemicals such as perfumes, sanitisers and the likes. Gross Weight : 1.458 g",
+        "smallDescription" : "Birthday Sale is on! Buy 2 and Get Extra 5% off.",
+        "currentPrice" : "₹840 " ,
+        "oldPrice" :" ₹1,050",
+        "offer" : "(20% OFF)",
+        "publishDate": "30-10-23"
     }
 ]

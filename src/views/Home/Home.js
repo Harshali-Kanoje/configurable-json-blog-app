@@ -11,14 +11,16 @@ function Home() {
 
     return (
         <div className='home-container'>
-            <h1>"A Dazzling Collection of Exquisite Jewelry, Gemstones, and Precious Adornments for the Discerning Connoisseur"</h1>
+            <h1 className='home-header'>"A Dazzling Collection of Exquisite Jewelry"</h1>
+            <p>Exquisite Jewelry, Gemstones, and Precious Adornments for the Discerning Connoisseur</p>
             <img src={jwellery}/>
+            <h1>Recent Blogs</h1>
             <div className='card-container'>
             {
                 blogdata.map((postdata) => {
-                    const {name , price ,img , id} = postdata;
+                    const {name , oldPrice ,img , id , currentPrice ,offer} = postdata;
                     return(
-                        <ReadPreview img={img} name={name} price={price} id={id}/>
+                        <ReadPreview img={img} name={name} currentPrice={currentPrice} oldPrice={oldPrice} id={id} offer={offer}/>
                     )
                 })
             }

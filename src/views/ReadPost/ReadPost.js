@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import blogdata from './../../util/blogdata.json'
 import Button from '../../component/Button/Button'
 import './ReadPost.css'
@@ -19,21 +19,25 @@ function ReadPost() {
 
 
   return (
-    <div className='read-post-container'>
+    <div>
+<div className='read-post-container'>
       <div className='read-post-image'>
         <img src={post.img} alt='errrt' />
       </div>
       <div>
         <h1>{post.title}</h1>
-        <p>{post.smallDescription}</p>
-        <span>{post.currentPrice}</span>
-        <del>{post.oldPrice}</del>{post.offer}
-        <p>Delivery Date : {post.publishDate}</p>
+        <p className='description'>{post.smallDescription}</p>
+        <span className='price'>{post.currentPrice}</span>
+        <del className='price oldprice'>{post.oldPrice}</del><span className='offer'>{post.offer}</span>
+        <p className='date'>Delivery Date : {post.publishDate}</p>
          <Button/>
-        <p>{post.content}</p>
+        <p className='content'>{post.content}</p>
       </div>
-
+      
     </div>
+    <Link to={'/'} className='back'> Back To Home</Link>
+    </div>
+    
   )
 }
 
