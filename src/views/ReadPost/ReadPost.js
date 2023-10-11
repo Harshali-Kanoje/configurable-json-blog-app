@@ -22,9 +22,9 @@ function ReadPost() {
     <div>
 <div className='read-post-container'>
       <div className='read-post-image'>
-        <img src={post.img} alt='errrt' />
+        <img src={post.img}/>
       </div>
-      <div>
+      <div className='post-detail'>
         <h1>{post.title}</h1>
         <p className='description'>{post.smallDescription}</p>
         <span className='price'>{post.currentPrice}</span>

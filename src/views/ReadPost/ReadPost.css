@@ -4,10 +4,14 @@
 }
 
 .read-post-image img{
-    width: 323px;
+    /* width: 323px; */
     height: 430px;
+    margin: 40px 70px;
 }
 
+.post-detail{
+    margin-right:40px ;
+}
 .price{
     font-size: 20px;
     margin: 120px 0;
@@ -32,6 +36,7 @@
 .content{
     font-size: 18px;
     margin-top: 30px;
+    text-size-adjust: 20px;
 }
 
 .back{
@@ -40,4 +45,20 @@
     font-size: 30px;
     margin: 10px 10px;
     font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+    .post-detail{
+        margin: 0 10px;
+    }
+
+    .read-post-container{
+        flex-wrap: wrap;
+    }
+
+    .read-post-image img{
+        width: 100%;
+        height: none;
+        margin: 0px 0px;
+    }
 }

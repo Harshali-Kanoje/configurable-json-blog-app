@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img" : "Image/earing.jpg",
+        "img" : "https://blingvine.com/cdn/shop/files/bow-studs-earrings-blingvine-583728_360x-tinified_360x.jpg?v=1643963223",
         "name": "Peachy Paradise Earrings",
         "price": 299,
         "title" : "Peachy Paradise Hoop Earrings in Rose Gold Plated 925 Silver",
@@ -14,7 +14,7 @@
     },
     {
         "id": 2,
-        "img" : "Image/neckless.jpg",
+        "img" : "https://images.herzindagi.info/image/2021/Feb/Avoid-These-5-Mistakes-While-Buying-Bridal-Jewelleryssssss.jpg",
         "name": "Intense OTTness Necklace",
         "price": 1599,
         "title" : "Oxidised Owning My Intense OTTness Necklace",
@@ -27,7 +27,7 @@
     },
     {
         "id": 3,
-        "img" : "Image/ring.jpg",
+        "img" : "https://i.pinimg.com/736x/c8/82/c8/c882c8449579b0ebd61d9e79aa82b01b.jpg",
         "name": "Gold Plated Ring",
         "price": "300",
         "title" : "Be Nice or Leaf Ring in Gold Plated 925 Silver",
